@@ -30,7 +30,6 @@ def compute_energy_kwh(jobs_df, power_per_core_kw=POWER_PER_CORE_KW):
         #which is preset
         #here it was passed in as the name power_per_core_kw
 
-
     )
     return df
 
