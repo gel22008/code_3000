@@ -10,6 +10,7 @@ def compute_energy_kwh(jobs_df, power_per_core_kw=POWER_PER_CORE_KW):
     df = jobs_df.copy()
     df["energy_kwh"] = ( 
         # put energy calculation here
+<<<<<<< HEAD
         #below all comes from the generate_data function
         #in the generate emission data file
 
@@ -29,13 +30,19 @@ def compute_energy_kwh(jobs_df, power_per_core_kw=POWER_PER_CORE_KW):
         #this is all of course times the global variavle POWER_PER_CORE_KW
         #which is preset
         #here it was passed in as the name power_per_core_kw
+=======
+>>>>>>> 93dc559cbcbcebbc53aca61dff131c5dfd1fbc4e
 
     )
     return df
 
 
 def compute_emissions(jobs_df, carbon_intensity):
+<<<<<<< HEAD
     """#
+=======
+    """
+>>>>>>> 93dc559cbcbcebbc53aca61dff131c5dfd1fbc4e
     Given a jobs dataframe with 'energy_kwh',
     returns total emissions (kg CO2) for the region.
     """

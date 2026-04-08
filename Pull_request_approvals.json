@@ -11,7 +11,11 @@
       "include": [
         "~DEFAULT_BRANCH"
       ]
+<<<<<<< HEAD
     }
+=======
+    } 
+>>>>>>> 93dc559cbcbcebbc53aca61dff131c5dfd1fbc4e
   },
   "rules": [
     {
